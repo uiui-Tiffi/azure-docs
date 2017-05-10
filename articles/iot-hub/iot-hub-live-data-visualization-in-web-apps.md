@@ -89,7 +89,10 @@ We made available a web application on GitHub which displays real-time sensor da
 1. Download the web application from GitHub and upload it Azure for the web app to host. To do this, run the following commands:
 
    ```bash
+    
    git clone https://github.com/Azure-Samples/web-apps-node-iot-hub-data-visualization.git
+   # then use the command-line to go in the root folder of your local Git repository.
+   cd web-apps-node-iot-hub-data-visualization
    git remote add webapp <Git clone URL>
    git push webapp master:master
    ```
